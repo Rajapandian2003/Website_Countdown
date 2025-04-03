@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/a.jpg);
+    color: white;
+}
+
+.img{
+    height: 10%;
+    width: 10%;
+}
+
+small{
+    margin-top: 20px;
+}
+
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+p{
+    font-size: 13px;
+}
+
+.bDay{
+    font-family: "Inspiration", cursive;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 20px;
+}
+.box small{
+    font-size: 12px;
+}
+
+.notify{
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.notify input{
+    background:transparent;
+    border: 1px solid white;
+    padding: 5px 70px 5px 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.notify p{
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color:cadetblue;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+}
+
+.notify p:hover{
+    background: transparent;
+    transition: 1200ms;
+}
+
+@media (min-width:570px) {
+    .img{
+        height: 20%;
+        width: 20%;
+    }    
+    .bDay{
+        font-size: 90px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+    .box h2{
+        font-size: 20px;
+    }
+    .box small{
+        font-size: 12px;
+    }
+}
+
+@media (min-width:800px) {
+    .img{
+        height: 100px;
+        width: 100px;
+    }  
+    .bDay{
+        margin-top: 0px;
+        font-size: 100px;
+    }
+    .count{
+        margin-top: 30px;
+        gap: 30px;
+        padding: 20px;
+        padding-bottom: 2px;
+        border: 1px solid white;
+    }
+    p{
+        font-size: 15px;
+    }
+    .box h2{
+        font-size: 25px;
+    }
+    .box small{
+        font-size: 20px;
+    }
+    .box{
+        text-align: center;
+        height: 100px;
+        width: 100px;
+    }
+    .count{
+        margin-top: 40px;
+    }
+}
